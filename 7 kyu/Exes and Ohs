@@ -1,0 +1,14 @@
+// JavaScript 
+function XO(str) {
+    
+  var exoh = 0;
+    
+  for (var i = 0; i < str.length; i++) {
+    if (str[i].toLowerCase() === "x") {
+      exoh--;
+    } else if (str[i].toLowerCase() === "o") {
+        exoh++;
+      }
+  }
+    return exoh === 0;
+}
