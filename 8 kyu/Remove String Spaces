@@ -1,0 +1,11 @@
+// JavaScript 
+function noSpace(x){
+  x = x.replace(/\s/g,'');
+  return x;
+}
+
+// PHP
+function no_space(string $s): string {
+  $no_space = str_replace(" ", "", $s);
+  return $no_space;
+}
